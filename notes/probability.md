@@ -357,7 +357,7 @@ ${\hspace{1mm}=} \hspace{1mm} {7 \choose 4} \hspace{1mm} {=} \hspace{1mm} {7 \ch
     
 **Suppose we live in a city laid out in rectangular grid, and our job is located three blocks $N’s$ & four blocks $E’s$. We have to walk 7 blocks to reach Home or Work. How many paths can we take?**
     
-![image.png](Probability%208931b81c4de745cfb5fc39906507c814/image.png)
+![image.png](./Probability/0.png)
     
 It is clear that you need to walk 7 steps, but there are different paths that can be taken. To find a path, we have to take a series of directions, lets say N denotes North & E denotes East. Hence. we can lay a path consisting of 3 $N’s$ and 4 $E’s$. Then, we end with a problem same as previous one. 
     
@@ -468,11 +468,11 @@ For sample space S, if $A \subseteq B$ and  $B \subseteq S$, then A and B are ev
 2. $A \cup B$ is an event that occurs only when at least one of A & B occurs.
 3. $\overline{A}$ is an event that occurs when A does not occur.
 
-![image.png](Probability%208931b81c4de745cfb5fc39906507c814/image%201.png)
+![image.png](Probability/1.png)
 
-![image.png](Probability%208931b81c4de745cfb5fc39906507c814/image%202.png)
+![image.png](Probability/2.png)
 
-![image.png](Probability%208931b81c4de745cfb5fc39906507c814/image%203.png)
+![image.png](Probability/3.png)
 
      $P(A^c) = 1 -  P(A)$                                   $A \cap B$                                                    $A \cup B$
 
@@ -523,9 +523,9 @@ Here we say that the probability of getting a 3 on roll of a die is 1/6 does not
 4. $P(E) =  1 - P(\overline{E})$, useful in problems where it is easier to compute $P(\overline{E})$
 5. If, $P(E) = 0$, then $P(\overline{E})$ is always 1.
 
-1. Probabilities must be between 0 & 1.
-2. Probability + Complementary Probability = 1
-3. Probability of all possible events must add to 1.
+6. Probabilities must be between 0 & 1.
+7. Probability + Complementary Probability = 1
+8. Probability of all possible events must add to 1.
 
 ---
 
