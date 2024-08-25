@@ -1,40 +1,62 @@
-# Welcome to Remix!
+nb (short for notes;book)
 
-- 📖 [Remix docs](https://remix.run/docs)
+This is a personal project aimed at storing my notes using Markdown. 
 
-## Development
+The immediate goal is to migrate my notes from Notion, while not loosing any rendering capabilities, that requires a robust view layer to be built. 
+Editing can be done any text based editor since, markdown files are simply text files. 
 
-Run the dev server:
+## What tech does this use? 
+- [React Remix](https://remix.run/)
+- [Markdown](https://www.markdownguide.org/) 
+- [Katex](https://katex.org/docs/browser.html) 
+- [Custom Web Components](https://web.dev/articles/custom-elements-v1)
 
-```shellscript
-npm run dev
-```
+## Why this project? 
+My collection of notes has been growing and while I have been using [Notion](https://www.notion.so/) to manage this, but I do not see it as viable long term solution. 
 
-## Deployment
+### What I like about notion? 
+- Cross Platform (Web, Windows, Mac, Linux)
+- Nice UI, that allows to arrange your notes the way you want. 
+- Your notes are on the cloud so those are always sync. No worries about uploading or saving. 
+- Multiple Collaborators
 
-First, build your app for production:
+## Why I want to move on?
+- Becomes slow, and hard to load at times.
+- Does not handle very large files. 
+- Options for export are available, but it will be very hard to move if I have a lot of data. 
+- Significant costs, if you start to go premium. Workspaces are charged seprately for each member you add to the workspace. 
+- Notion Databases are very slow. 
+- The choice of fonts is limited, especially Latex fonts are hard to read or work with.
+- More control on my data, and what can be done. 
 
-```sh
-npm run build
-```
+I have liked Notion a lot since I came to understand it. I has allowed me to streamline my note taking process. However, I do not see it as a long term viable solution. 
 
-Then run the app in production mode:
+## Goals 
 
-```sh
-npm start
-```
+[ ] Avoid Vendors Lock-In, without loosing on what I want.  
 
-Now you'll need to pick a host to deploy it to.
+[+] Markdown Support
 
-### DIY
+[+] Katex Support
 
-If you're familiar with deploying Node applications, the built-in Remix app server is production-ready.
+[ ] Markdown Styling & Theming
 
-Make sure to deploy the output of `npm run build`
+[ ] Better Markdown Tables
 
-- `build/server`
-- `build/client`
+[ ] Markdown based Custom Elements
 
-## Styling
+[ ] PDF Exports for Folders 
 
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever css framework you prefer. See the [Vite docs on css](https://vitejs.dev/guide/features.html#css) for more information.
+[ ] Markdown Editor
+
+[ ] Zettlekasten Style Note Taking
+
+[ ] Notes Hosted to a Webpage
+
+[ ] Multiple Notebooks Support*
+
+[ ] Cloud Sync*
+
+
+# About me
+[@pavittarx](https://www.google.com/search?q=pavittarx)
